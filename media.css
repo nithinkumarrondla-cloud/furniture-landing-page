@@ -1,0 +1,107 @@
+@media(width<576px){
+    .Section-1{
+        background-image: url('./Assets/images/Rectangle\ 1441.png');
+        height: auto;
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+    .List{
+        display: none;
+    }
+    .Heading{
+        text-align: center;
+    }
+    .Title{
+        font-size: xx-large;
+    }
+    .Input{
+    
+        margin-left: 50px;
+    }
+    .Section-2{  
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Sction-3{
+        width: 100%;
+    }
+    .Best-selling-product{
+        text-align: center;
+    }
+    .Section-3-Menu{
+        margin-left: 90px;
+    }
+    .Section-3-cards{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .Baltsar,.Anjay,.Sakarias,.Nyantuy{
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .View{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .Section-4{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .Right-section{
+        width: 100%;
+    padding-left: 10px;
+    }
+    .Left-section-image{
+        width: 100%;
+    }
+    .Section-5{
+        display: flex;
+        flex-direction:  column-reverse;
+        gap: 0px;
+    }
+    .Section-5-Right-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Section-5-Right-section-sub-2-image{
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+    .Section-6{
+        display: flex;
+        flex-direction: column;
+    }
+    .Section-6-Card-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .Footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Last{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Last-Section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #E58411;
+        color: white;
+    }
+}
